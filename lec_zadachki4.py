@@ -14,5 +14,4 @@ for i in range(N):
         else:
             trigonometry_array[i, j] = value
             
-print(f"Конечный массив (размер {N} x {M}):")
 print(trigonometry_array)
