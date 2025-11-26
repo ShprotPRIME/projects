@@ -7,7 +7,7 @@ def randomi(color):
     return x 
 
 colors = dict(zip(flowers, color))
-randomcolor = dict(filter(randomi(color), colors))
+randomcolor = dict(map(randomi(color), colors))
 print(randomcolor)
 
 

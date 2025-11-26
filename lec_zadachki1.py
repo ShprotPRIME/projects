@@ -3,11 +3,10 @@ import random
 
 N = int(input("Введите длинну массива:"))
 
-for i in range(3):
-    array = [random.randint(0, 100) for i in range(N)]    
+array1 = np.array(array1)
+array2 = np.array(array2)
+array3 = np.array(array3)
 
-array = np.array(array)
-print(array)
-
-a = list(zip(array))
-print(max(array))
+print(max(max(array1), max(array2), max(array3)))
+print(sum(array1) + sum(array2) + sum(array3))
+    
