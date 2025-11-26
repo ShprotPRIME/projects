@@ -1,7 +1,9 @@
 import numpy as np 
 import random
 
-N = int(input("Введите длинну массива:"))
+array1 = [random.randint(0, 100) for i in range(10)]    
+array2 = [random.randint(0, 100) for i in range(10)]  
+array3 = [random.randint(0, 100) for i in range(10)]  
 
 array1 = np.array(array1)
 array2 = np.array(array2)
