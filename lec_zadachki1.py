@@ -6,7 +6,7 @@ def cicloid(R=10):
     t = np.arange(-2 * R, 2 * R, 0.1)
     x = R * (t - np.sin(t))
     y = R * (1 - np.cos(t))
-    
+    return x, y
     
 
     plt.plot(x, y)
