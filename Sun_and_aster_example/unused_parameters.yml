@@ -1,0 +1,13 @@
+---
+
+# SWIFT unused parameter file
+# code version: 2025.10
+# git revision: v2025.10-47-gb6a76d72
+# git branch: master
+# git date: 2026-01-08 20:19:33 +0000
+# current date: 18:09:18 2026-03-11 MSK
+
+Gravity:
+  mesh_side_length: 128
+  max_physical_baryon_softening: 1e7
+...
